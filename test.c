@@ -1,6 +1,8 @@
 #include <math.h>
 #include <stdio.h>
 
+
+//change 1
 int squareCount(int N) {
 	if (N < 4) 
 		return 0;
