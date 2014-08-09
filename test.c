@@ -11,7 +11,9 @@ int squareCount(int N) {
 	if (rem == 0) 
 		return ret;
 	if (rem <= square) 
+	{
 		return ret + rem * (rem - 1) / 2;
+	}
 	ret += square * (square - 1) / 2;
 	rem -= square;
 	return ret + rem * (rem - 1) / 2;
