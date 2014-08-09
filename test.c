@@ -7,6 +7,7 @@ int squareCount(int N) {
 	int square = (int) floor(sqrt(N));
 	int ret = square * (square - 1) * (2 * square - 1) / 6;
 	int rem = N - square * square;
+
 	if (rem == 0) 
 		return ret;
 	if (rem <= square) 
