@@ -3,6 +3,8 @@
 
 
 //change 1
+//change 2
+//change 3
 int squareCount(int N) {
 	if (N < 4) 
 		return 0;
